@@ -8,8 +8,6 @@ console.log(aCopy)
 aCopy.querySelector("h2").textContent = "Jonas the Pig"
 aCopy.querySelector("p:nth-child(3)").textContent = "Hotpink";
 
-
-
 const whosYourDaddy = document.querySelector("main");
 
 whosYourDaddy.appendChild(aCopy)
